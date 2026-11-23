@@ -1,9 +1,27 @@
-# Change Your Gamemode Mod
+# 🎮 Change Your Gamemode Mod
 
-## Setup
+**Change Your Gamemode Mod** — это легкий мод для Minecraft **1.21.11** на базе **Fabric**, который позволяет менять свой игровой режим, даже если в мире отключены читы и консольные команды.
 
-For setup instructions, please see the [Fabric Documentation page](https://docs.fabricmc.net/develop/getting-started/creating-a-project#setting-up) related to the IDE that you are using.
+## ✨ Особенности
 
-## License
+* **Автоматическая работа:** Мод не требует настройки — он сам активируется при входе в мир.
+* **Доступ без читов:** Позволяет использовать команды смены режима даже в тех мирах, где использование команд заблокировано.
+* **Удобство:** Избавляет от необходимости каждый раз открывать мир для сети (Open to LAN), чтобы сменить режим.
 
-This template is available under the CC0 license. Feel free to learn from it and incorporate it in your own projects.
+## 🎮 Использование
+
+Мод автоматически внедряется в ваш мир — сразу после захода в игру вы можете свободно использовать команды смены режима в чате (например, `/gamemode creative` или `/gamemode survival`), а также быстрое меню переключения `F3 + F4`.
+
+## 📥 Установка
+
+1. Установите **Fabric Loader** для Minecraft **1.21.11**.
+2. Скачайте и поместите [Fabric API](https://modrinth.com) (для 1.21.11) в папку `mods`.
+3. Скачайте `.jar` файл мода из раздела [Releases](../../releases) и переместите его в папку `.minecraft/mods`.
+
+## 🛠️ Сборка и разработка (Setup)
+
+Для настройки среды разработки и сборки проекта следуйте официальной инструкции: [Fabric Documentation](https://fabricmc.net).
+
+## 📄 Лицензия
+
+Этот проект распространяется под лицензией **CC0** (Creative Commons Zero). Вы можете свободно изучать код, изменять его и использовать в своих проектах без каких-либо ограничений.
